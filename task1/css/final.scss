@@ -1,0 +1,321 @@
+$myvar1:"LucidaGrande";
+$myvar2:white;
+$myvar3:grey;
+
+@font-face {
+                font-family: $myvar1;
+                src: url('lucidagrande.ttf')  format('truetype');
+                
+            }
+           @media only screen and (max-width: 1024px) {
+                .sub3{
+                    display: none;
+                }
+            }
+            @media only screen and (max-width: 698px) {
+                #tex{
+                    width:100%;
+                }
+                #tex2{
+                    width:100%;
+                    margin-left: 2%;
+                    top : 85%;
+                }
+                .content1{
+                    top:85%; 
+                    width:85%;
+                }
+            
+                #content2{
+                    top:500%;
+                    width:100%;
+                    margin-left:0px;
+                    left:4%;
+                }
+                #button-1{
+                    margin-left:7% ;
+                
+                }
+                #button-2{
+                    margin-left: 3%;
+                }
+                #home-in{
+                    width:80%;
+                }
+            }
+        body {
+            font-family: "LucidaGrande";
+            font-size:14px;
+        }
+
+        .header {
+            border: 1px solid $myvar2;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .header h1 {
+            font-weight: bold;
+            font-style: normal;
+            margin-left: 120px;
+            margin-top: 15px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+
+        .head1 ul {
+            cursor: pointer;
+            display: inline-flex;
+            margin-right: 40px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .home {
+            border: none;
+            background: $myvar2;
+            position: relative;
+            display: inline-flex;
+            width: 66%;
+            margin-top: 10px;
+            margin-left:14%;
+            z-index:1;
+            overflow: hidden;
+        }
+
+        .home button {
+            padding: 20px 0px 10px 13px;
+            cursor: pointer;
+            color: $myvar3;
+            border: $myvar2;
+            background: $myvar2;
+            font-size: 14px;
+
+        }
+
+        .button-in1{
+            cursor: pointer;
+            color:$myvar3;
+            position:absolute;
+            margin-top: 30px;
+            margin-left:12%;
+            border: none;
+            background:$myvar2;
+        }
+        
+        .button-in2{
+            cursor: pointer;
+            color: $myvar3;
+            position:absolute;
+            margin-top: 30px;
+            border: none;
+            margin-left: 0%;
+            background: $myvar2;
+        }
+        .main {
+            height: 95%;
+            margin-top: 2%;
+            margin-bottom: 0%;
+            width: 100%;
+            position: absolute;
+            background: $myvar2;
+            display:flex;
+            
+            }
+
+        .sub1 {
+            height: 70%;
+            width: 30%;
+            margin-left: 3%;
+            margin-top: -14px;
+            position: absolute;
+            background-color: $myvar2;
+            flex-shrink: 0;
+            }
+
+        .sub2 {
+            height: 65%;
+            width: 30%;
+            margin-top: -14px;
+            margin-left:36%;
+            position: absolute;
+            background-color: $myvar2;
+            
+        }
+        .subin p,h4{
+            cursor: pointer;
+            line-height: 1.3;
+        }
+        .subin img{
+            width:100px;
+            height:105px;
+            margin-right:15px;
+           /* display: inline-flex;*/
+            float: left;
+        }
+        #insub2{
+            color:$myvar3;
+        }
+
+        .sub3 {
+           height: 65%;
+            width: 28%;
+            margin-top: -14px;
+            margin-left:72%;
+            position: absolute;
+            background-color: $myvar2;
+        }
+        .sub1 img{
+            width:100%;
+            height:150px;
+            margin-right:15px;
+        }
+        .split2 {
+            height: 65%;
+            width: 85%;
+            position: relative;
+            background-color: $myvar2;
+            margin-left: 50px;
+        }
+        .split3 {
+            width: 100%;
+            height: 30%;
+            position: relative;
+            margin: 60px 0px 0px 50px;
+        }
+        .sub3 img{
+            width:300px;
+            height:150px;
+            margin-right:15px;
+        
+        }
+        .line{
+            position: absolute;
+            width: 100%;
+            margin: 420px 0px 10px 0px;
+            color:grey;
+        }
+
+        .content1{
+            position: absolute;
+            background:$myvar2;
+            margin-left: 9%;
+            margin-top: 470px;
+            line-height: 1.3;
+            font-size: 12px;
+
+        }
+        .content2{
+            width: 30%;
+            position: absolute;
+            background:$myvar2;
+            margin-left: 65%;
+            margin-top: 470px;
+            line-height: 1.3;
+            font-size: 13px;
+        }
+       
+        .subcont{
+            position: relative;
+            width: 80%;
+            margin-left:50px ;
+            background:$myvar2;
+            padding: 0px 10px 10px 10px;
+            font-size:medium;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            border:none;
+        }
+        
+       
+        #inside2{
+            margin-top: -12px;
+        }
+        #inside{
+         color: black;
+         cursor: pointer;
+         font-size: 16px;
+        }
+        #inside0{
+            color:$myvar3;
+            cursor: pointer;
+        }
+        
+        .end{
+            margin-left: 36px;
+            position:relative;
+            width:75%;
+            background: $myvar2;
+        }
+        #end1{
+            color:black;
+            margin-top: -7px;
+        }
+        #end2{
+            color: $myvar3;
+            margin-top:-7px;
+            margin-left:13px;
+        }
+        #end0{
+            font-size:35px;
+            float:left;
+            color: $myvar3;
+            margin-top: 0%;
+            margin-right: 10px;
+        }
+        #endstyle{
+            margin-top: -7px;
+        }
+        .footer{
+            margin-left: 36px;
+            position:relative;
+            margin-top: 200px;
+        }
+        .footer a{
+            color:$myvar3;
+        }
+        .inside3{
+            float:right;  
+            margin-right:50px;
+            background: rgba(0,0,0,0);
+        }
+        .subin-1{
+            display: flex;
+        }
+        .subin-img img{
+            margin-left:1%;
+            width: 100px;
+            height: 105px;
+            display: inline;
+            margin-top: 17px;
+            margin-right: 15px;
+        }
+        .subcont-img img{
+            float:right;
+            height: 150px;
+            width: 150px;
+            margin-top: 25px;
+            padding-left:20px ;
+            
+        }
+        .subcont-cont{
+            width:500px;
+        }
+        .subcont-cont p{
+            color: $myvar3;
+            font-weight: 400;
+            font-size: 13px;
+        }
+        .subcont-cont h2{
+            color: black;
+            margin-top: 0px;
+            font-size:17px;
+            cursor: pointer;
+           }
+           .subcont-1{
+               display: flex;
+           }
